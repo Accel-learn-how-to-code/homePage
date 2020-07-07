@@ -1,21 +1,18 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-.blog .carousel-indicators {
-	left: 0;
-	top: auto;
+
+.blog .carousel-indicators{
     bottom: -40px;
-
 }
-
-/* The colour of the indicators */
-.blog .carousel-indicators li {
-    background: #a3a3a3;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
+.fa-fire{
+    font-size: 1.7rem;
+    color: red;
 }
-
-.blog .carousel-indicators .active {
-background: #707070;
+/*Change color of Carousel*/
+.blog .carousel-indicators li{
+    background-color: #a3a3a3;
+}
+.blog .carousel-indicators li.active{
+    background-color: #322348;
 }
